@@ -11,11 +11,11 @@ win32 {
 DEFINES += QT_DEPRECATED_WARNINGS
 
 SOURCES += main.cpp \
-        test_runner.cpp \
+        test.cpp \
         $$PWD/../src/useful.cpp
 
 HEADERS += \
-        test_runner.h \
+        test.h \
         $$PWD/../src/useful.h
 
 INCLUDEPATH += $$PWD/../src

@@ -1,5 +1,5 @@
 #include <QTest>
-#include "test_runner.h"
+#include "test.h"
 #include "useful.h"
 
 #define POINT(test_name, point) qInfo("TMC:"#test_name"."#point)
