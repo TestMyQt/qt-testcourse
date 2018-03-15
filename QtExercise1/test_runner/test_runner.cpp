@@ -47,6 +47,6 @@ void test_runner::hello_still_worlds() {
     useful test_useful;
 
     POINT(hello_still_worlds, 5);
-    QVERIFY2(!strcmp(test_useful.hello(), "Hello, world!", "world"));
+    QVERIFY2(!strcmp(test_useful.hello(), "Hello, world!"), "world");
 
 }
