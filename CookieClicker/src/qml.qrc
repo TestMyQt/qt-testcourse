@@ -1,0 +1,7 @@
+<RCC>
+    <qresource prefix="/">
+        <file>main.qml</file>
+        <file>CookieClicker.qml</file>
+        <file>cookie.jpg</file>
+    </qresource>
+</RCC>
