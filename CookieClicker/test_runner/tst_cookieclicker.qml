@@ -16,7 +16,12 @@ Item {
             id: spy
         }
 
+	function qml_POINT (exercise_name, point) {
+            console.info("TMC:test_cookie_click.1")
+        }
+
         function test_cookie_click() {
+            qml_POINT(test_cookie_click, 1);
             var component = Qt.createComponent("CookieClickerTest.qml")
             compare(component.status, Component.Ready)
             var cookie = component.createObject(container);
